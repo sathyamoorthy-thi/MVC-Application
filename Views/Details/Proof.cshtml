@@ -1,0 +1,66 @@
+@model ReimbursementClaim.Proof
+<style>
+    .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #f44308;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+body {
+      background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?size=626&ext=jpg&ga=GA1.2.2006827734.1679206396&semt=ais");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+</style>
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+<html>
+  <title>Proof</title>
+  <br></br>
+  <br></br>
+<img src="~/image/5.jpeg" style = "position:relative;  down:10px; class="img-fluid" alt="Responsive image">
+
+<form asp-controller="Details" asp-action="Proof" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Select a file:</label>
+        <input type="file" name="file" id="file" class="form-control-file">
+    </div>
+    </br>
+     <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        CONFORM
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+    <button type="submit" class="btn btn-primary" ><a style="color:rgb(255, 255, 255)" href="/Details/Success/"  class="link-success">Upload</a></button>
+</form>
+</html>
+<html>
+	<!--<div class="login-container">
+<button class="login-button"><a href="/Login/Interface"  class="link-success">LogOut</a></button>
+</div>-->
+</html>

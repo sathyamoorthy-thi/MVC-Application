@@ -1,0 +1,154 @@
+﻿@model List<ReimbursementClaim.ClaimDetails>
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="~/image/9.png" alt="Logo"> 
+    </div>
+    <div class="navbar-buttons">
+      <a asp-area="" asp-controller="Home" asp-action="AdminDashBoard">DashBoard</a>
+      <a class="active" asp-area="" asp-controller="Login" asp-action="Welcome"  class="link-success" class="login">Logout</a>
+    </div>
+  </div>
+  
+  <!-- Rest of your HTML content -->
+  
+</body>
+</html>
+
+<style>
+ body {
+      background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg?w=740&t=st=1685616031~exp=1685616631~hmac=f9061b7311d449762c007f020ccf62882815cd9974672fc7fe7929bdff574906");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+.navbar {
+  background-color: #8a2be2; /* Light violet color */
+  overflow: hidden;
+  padding: 10px; /* Add padding for space */
+  width: 100%; /* Extend the navbar to full width */
+  display: flex; /* Use flexbox for flexible layout */
+  justify-content: space-between; /* Space items evenly within the navbar */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  display: flex; /* Use flexbox to align logo and text vertically */
+  align-items: center; /* Align items vertically */
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of the logo image */
+  margin-left: 10px; /* Add spacing between the logo and text */
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Rest of your CSS code */
+
+
+
+/* Rest of the CSS code remains the same */
+.navbar a {
+  color: rgb(8, 6, 6);
+  text-align: center;
+  padding: 10px 16px; /* Adjust padding for space */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #ff3232;
+  color: rgb(5, 0, 0);
+}
+
+/* Login button style */
+.navbar a.login {
+  background-color: #008CBA;
+}
+
+
+ <style>
+    .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ </style>                          
+<h1>REIMBURSEMENT HISTORY</h1>
+
+<div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr style="font-weight: bolder;">
+                       
+                        <td><span class="badge bg-danger">Name</span></td>
+                        <td><span class="badge bg-danger">Email</span></td>
+                        <td><span class="badge bg-danger">PhoneNumber</span></td>
+                        <td><span class="badge bg-danger">Type</span></td>
+                        <td><span class="badge bg-danger">Date</span></td>
+                        <td><span class="badge bg-danger">Amount</span></td>
+                        <td><span class="badge bg-danger">Currency</span></td>
+                        <td><span class="badge bg-danger">Description</span></td>
+                        <td><span class="badge bg-danger">Status</span></td>
+
+                   </tr>
+                </thead>
+                <tbody>
+                  @if(Model != null) 
+                    {
+                    foreach(var item in Model)
+                    {
+                        <tr>
+                        
+                      <td>@Html.DisplayFor(ModelItem => item.Name)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Email)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.PhoneNumber)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Type)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Date)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Amount)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Currency)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Description)</td> 
+                      <td><span class="badge bg-warning text-dark">@Html.DisplayFor(ModelItem => item.Status)</span></td> 
+                        </tr>
+                    }
+                    }
+                </tbody>
+            </table>

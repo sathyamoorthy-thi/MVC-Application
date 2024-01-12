@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="~/image/9.png" alt="Logo"> 
+    </div>
+    <div class="navbar-buttons">
+      
+    
+      <a asp-area="" asp-controller="Login" asp-action="ContactUs">Contact Us</a>
+      <a class="active" asp-area="" asp-controller="Login" asp-action="Welcome"  class="link-success" class="login">Logout</a>
+    </div>
+  </div>
+  
+  <!-- Rest of your HTML content -->
+  
+</body>
+</html>
+
+<style>
+body {
+    background-color: #93b0b9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.navbar {
+  background-color: #8a2be2; /* Light violet color */
+  overflow: hidden;
+  padding: 10px; /* Add padding for space */
+  width: 100%; /* Extend the navbar to full width */
+  display: flex; /* Use flexbox for flexible layout */
+  justify-content: space-between; /* Space items evenly within the navbar */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  display: flex; /* Use flexbox to align logo and text vertically */
+  align-items: center; /* Align items vertically */
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of the logo image */
+  margin-left: 10px; /* Add spacing between the logo and text */
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Rest of your CSS code */
+
+
+
+/* Rest of the CSS code remains the same */
+.navbar a {
+  color: rgb(8, 6, 6);
+  text-align: center;
+  padding: 10px 16px; /* Adjust padding for space */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #a31313;
+  color: rgb(5, 0, 0);
+}
+
+/* Login button style */
+.navbar a.login {
+  background-color: #008CBA;
+}
+
+
+ <style>
+    .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+.dashboard-button {
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.login-button {
+  background-color: #4CAF50;
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Success</title>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+    <br>
+  <h1 class="center"><b>Your submission has been successful!</b></h1>
+  <p class="center">Thanks! We have received your submission, and we'll be in touch really soon.</p>
+    <button class="dashboard-button"><a style="color:rgb(255, 255, 255)" asp-controller="Details" asp-action="ViewDetails">Dashboard</a></button>
+  
+  </br>
+  <img src="https://th.bing.com/th/id/R.c6c690d1b976dafa4797009c5fb99caa?rik=%2bfb3Xg%2faO8Awwg&riu=http%3a%2f%2flostnationtheater.org%2fclient_media%2fimages%2fThankyou-Featured-Image.jpg&ehk=XMHWjcaNhRdYVUJQ6t3DaMnCT9FeHuc2H7HbLOZsF7M%3d&risl=&pid=ImgRaw&r=0" alt="Your Image Description" style="display: block; margin: 0 auto; height: 13cm; width: 27cm;">
+</body>
+</html>
+

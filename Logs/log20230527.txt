@@ -1,0 +1,750 @@
+2023-05-27 11:39:40.201 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 11:39:40.392 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 11:39:40.402 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 11:39:40.405 +05:30 [INF] Hosting environment: Development
+2023-05-27 11:39:40.409 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 11:39:44.724 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 11:39:44.789 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 11:39:44.868 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:39:44.919 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:39:44.932 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:39:44.937 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:39:44.941 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:39:44.973 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 11:39:45.141 +05:30 [INF] Executed ViewResult - view Welcome executed in 171.7366ms.
+2023-05-27 11:39:45.151 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:39:45.160 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 232.8949ms
+2023-05-27 11:39:45.167 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:39:45.189 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 471.7591ms
+2023-05-27 11:39:45.222 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-05-27 11:39:45.276 +05:30 [INF] The file /js/site.js was not modified
+2023-05-27 11:39:45.281 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 59.6030ms
+2023-05-27 11:39:47.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 11:39:47.320 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:39:47.330 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:39:47.340 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:39:47.343 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:39:47.345 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:39:47.357 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 11:39:47.379 +05:30 [INF] Executed ViewResult - view Interface executed in 27.9973ms.
+2023-05-27 11:39:47.389 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:39:47.398 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 59.7861ms
+2023-05-27 11:39:47.414 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:39:47.422 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 121.4800ms
+2023-05-27 11:39:49.231 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:39:49.250 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:39:49.257 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:39:49.262 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:39:49.266 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:39:49.268 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:39:49.278 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:39:49.497 +05:30 [INF] Executed ViewResult - view Login executed in 224.3696ms.
+2023-05-27 11:39:49.502 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:39:49.505 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 242.2653ms
+2023-05-27 11:39:49.508 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:39:49.512 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 281.6491ms
+2023-05-27 11:39:49.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - -
+2023-05-27 11:39:49.624 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - - - 404 0 - 6.5569ms
+2023-05-27 11:40:04.319 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:40:04.324 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:40:04.374 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:40:04.431 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:40:05.533 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:40:05.536 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:40:05.541 +05:30 [INF] Executing RedirectResult, redirecting to /Details/Employeedetails.
+2023-05-27 11:40:05.544 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:40:05.545 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 1165.2695ms
+2023-05-27 11:40:05.548 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:40:05.554 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 302 0 - 1234.5825ms
+2023-05-27 11:40:05.563 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - -
+2023-05-27 11:40:05.566 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 11:40:05.576 +05:30 [INF] Route matched with {action = "Employeedetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Employeedetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 11:40:05.626 +05:30 [INF] Authorization failed for the request at filter 'ReimbursementClaim.CustomAuthorizeFilter'.
+2023-05-27 11:40:05.633 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-27 11:40:05.641 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim) in 58.4322ms
+2023-05-27 11:40:05.645 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 11:40:05.654 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - - - 302 0 - 90.8339ms
+2023-05-27 11:40:05.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 11:40:05.670 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:40:05.675 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:40:05.680 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:40:05.682 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:40:05.684 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:40:05.687 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 11:40:05.692 +05:30 [INF] Executed ViewResult - view Welcome executed in 5.0329ms.
+2023-05-27 11:40:05.694 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:40:05.697 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 17.2347ms
+2023-05-27 11:40:05.701 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:40:05.710 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 42.6507ms
+2023-05-27 11:41:15.020 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 11:41:15.210 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 11:41:15.215 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 11:41:15.217 +05:30 [INF] Hosting environment: Development
+2023-05-27 11:41:15.219 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 11:41:18.694 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 11:41:18.735 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 11:41:18.826 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:41:18.896 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:41:18.909 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:41:18.912 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:41:18.920 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:41:18.958 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 11:41:19.109 +05:30 [INF] Executed ViewResult - view Welcome executed in 164.63ms.
+2023-05-27 11:41:19.118 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:41:19.126 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 220.857ms
+2023-05-27 11:41:19.132 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:41:19.153 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 462.1471ms
+2023-05-27 11:41:21.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 11:41:21.305 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:41:21.315 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:41:21.322 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:41:21.325 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:41:21.329 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:41:21.339 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 11:41:21.373 +05:30 [INF] Executed ViewResult - view Interface executed in 38.0198ms.
+2023-05-27 11:41:21.377 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:41:21.384 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 63.0953ms
+2023-05-27 11:41:21.389 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:41:21.394 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 111.8706ms
+2023-05-27 11:41:23.099 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:41:23.111 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:41:23.123 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:41:23.127 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:41:23.131 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:41:23.133 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:41:23.137 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:41:23.303 +05:30 [INF] Executed ViewResult - view Login executed in 167.7939ms.
+2023-05-27 11:41:23.307 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:41:23.309 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 181.6587ms
+2023-05-27 11:41:23.314 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:41:23.325 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 223.9262ms
+2023-05-27 11:41:23.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - -
+2023-05-27 11:41:23.408 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - - - 404 0 - 3.7833ms
+2023-05-27 11:41:40.839 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:41:40.847 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:41:40.890 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:41:40.950 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:41:55.200 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:41:55.212 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:41:55.226 +05:30 [INF] Executed ViewResult - view Exceptional executed in 19.0729ms.
+2023-05-27 11:41:55.230 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 14336.5153ms
+2023-05-27 11:41:55.234 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:41:55.247 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 14407.8657ms
+2023-05-27 11:41:59.163 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:41:59.197 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:41:59.201 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:41:59.205 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:41:59.209 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:41:59.212 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:41:59.213 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:41:59.220 +05:30 [INF] Executed ViewResult - view Login executed in 7.0699ms.
+2023-05-27 11:41:59.223 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:41:59.233 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 27.7822ms
+2023-05-27 11:41:59.334 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:41:59.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 176.2217ms
+2023-05-27 11:42:30.207 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:42:30.211 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:42:30.215 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:42:30.240 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:42:44.263 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:42:44.267 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:42:44.270 +05:30 [INF] Executed ViewResult - view Exceptional executed in 4.1228ms.
+2023-05-27 11:42:44.274 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 14050.0828ms
+2023-05-27 11:42:44.303 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:42:44.307 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 14099.5156ms
+2023-05-27 11:42:48.095 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:42:48.121 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:42:48.151 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:42:48.161 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:42:48.164 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:42:48.165 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:42:48.167 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:42:48.173 +05:30 [INF] Executed ViewResult - view Login executed in 6.0955ms.
+2023-05-27 11:42:48.185 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:42:48.190 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 28.8724ms
+2023-05-27 11:42:48.197 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:42:48.199 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 103.7702ms
+2023-05-27 11:43:23.612 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 235
+2023-05-27 11:43:23.620 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:43:23.625 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:43:23.640 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:43:37.649 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:43:37.652 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:43:37.657 +05:30 [INF] Executed ViewResult - view Exceptional executed in 4.8977ms.
+2023-05-27 11:43:37.664 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 14027.0042ms
+2023-05-27 11:43:37.679 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:43:37.681 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 235 - 200 - text/html;+charset=utf-8 14069.4337ms
+2023-05-27 11:48:25.968 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 11:48:26.139 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 11:48:26.144 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 11:48:26.146 +05:30 [INF] Hosting environment: Development
+2023-05-27 11:48:26.148 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 11:48:31.264 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 11:48:31.307 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 11:48:31.418 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:48:31.472 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:48:31.480 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:48:31.483 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:48:31.489 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:48:31.519 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 11:48:31.661 +05:30 [INF] Executed ViewResult - view Welcome executed in 146.2838ms.
+2023-05-27 11:48:31.671 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:48:31.675 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 198.3277ms
+2023-05-27 11:48:31.680 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:48:31.701 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 438.6959ms
+2023-05-27 11:48:33.599 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 11:48:33.611 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:48:33.619 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:48:33.642 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:48:33.646 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:48:33.649 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:48:33.660 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 11:48:33.694 +05:30 [INF] Executed ViewResult - view Interface executed in 38.356ms.
+2023-05-27 11:48:33.703 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:48:33.712 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 70.2942ms
+2023-05-27 11:48:33.720 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:48:33.727 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 127.5010ms
+2023-05-27 11:48:36.193 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:48:36.206 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:48:36.213 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:48:36.219 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:48:36.223 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:48:36.226 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:48:36.230 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:48:36.395 +05:30 [INF] Executed ViewResult - view Login executed in 167.0085ms.
+2023-05-27 11:48:36.398 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:48:36.401 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 181.9784ms
+2023-05-27 11:48:36.405 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:48:36.412 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 218.0786ms
+2023-05-27 11:48:36.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - -
+2023-05-27 11:48:36.512 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - - - 404 0 - 5.5560ms
+2023-05-27 11:48:52.610 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:48:52.615 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:48:52.659 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:48:52.719 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:48:52.745 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:48:52.751 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:48:52.759 +05:30 [INF] Executed ViewResult - view Exceptional executed in 10.325ms.
+2023-05-27 11:48:52.762 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 98.575ms
+2023-05-27 11:48:52.764 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:48:52.769 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 158.2426ms
+2023-05-27 11:48:59.117 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:48:59.143 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:48:59.146 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:48:59.154 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:48:59.156 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:48:59.158 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:48:59.160 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:48:59.167 +05:30 [INF] Executed ViewResult - view Login executed in 7.3764ms.
+2023-05-27 11:48:59.170 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:48:59.173 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 18.2056ms
+2023-05-27 11:48:59.181 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:48:59.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 70.8802ms
+2023-05-27 11:49:20.670 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:49:20.677 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:49:20.684 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:49:20.714 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:49:20.717 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:49:20.722 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:49:20.726 +05:30 [INF] Executed ViewResult - view Exceptional executed in 3.6167ms.
+2023-05-27 11:49:20.729 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 20.0366ms
+2023-05-27 11:49:20.737 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:49:20.745 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 75.0521ms
+2023-05-27 11:50:22.578 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 11:50:22.785 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 11:50:22.792 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 11:50:22.794 +05:30 [INF] Hosting environment: Development
+2023-05-27 11:50:22.796 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 11:50:30.389 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 11:50:30.438 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 11:50:30.621 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:50:30.684 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:50:30.693 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:50:30.697 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:50:30.701 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:50:30.729 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 11:50:30.865 +05:30 [INF] Executed ViewResult - view Welcome executed in 140.1324ms.
+2023-05-27 11:50:30.873 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:50:30.877 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 187.9677ms
+2023-05-27 11:50:30.883 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:50:30.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 516.1510ms
+2023-05-27 11:50:32.769 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 11:50:32.783 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:50:32.812 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:50:32.828 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:50:32.834 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:50:32.837 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:50:32.841 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 11:50:32.863 +05:30 [INF] Executed ViewResult - view Interface executed in 23.9303ms.
+2023-05-27 11:50:32.868 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:50:32.871 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 43.7946ms
+2023-05-27 11:50:32.876 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:50:32.888 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 118.1363ms
+2023-05-27 11:50:34.642 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:50:34.677 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:50:34.687 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:50:34.707 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:50:34.710 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:50:34.715 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:50:34.721 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:50:34.891 +05:30 [INF] Executed ViewResult - view Login executed in 172.7167ms.
+2023-05-27 11:50:34.894 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:50:34.898 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 190.9336ms
+2023-05-27 11:50:34.902 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:50:34.907 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 264.1585ms
+2023-05-27 11:50:34.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - -
+2023-05-27 11:50:34.983 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - - - 404 0 - 4.7441ms
+2023-05-27 11:50:41.705 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - -
+2023-05-27 11:50:41.711 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 11:50:41.719 +05:30 [INF] Route matched with {action = "Employeedetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Employeedetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 11:50:42.192 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:50:42.196 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:50:42.199 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:50:42.203 +05:30 [INF] Executing ViewResult, running view Employeedetails.
+2023-05-27 11:50:42.318 +05:30 [INF] Executed ViewResult - view Employeedetails executed in 116.7831ms.
+2023-05-27 11:50:42.322 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:50:42.324 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim) in 597.4299ms
+2023-05-27 11:50:42.330 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 11:50:42.344 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - - - 200 - text/html;+charset=utf-8 638.7818ms
+2023-05-27 11:50:44.942 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:50:44.953 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:50:44.964 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:50:44.969 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:50:44.971 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:50:44.974 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:50:44.988 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:50:45.001 +05:30 [INF] Executed ViewResult - view Login executed in 13.0917ms.
+2023-05-27 11:50:45.021 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:50:45.025 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 55.9552ms
+2023-05-27 11:50:45.034 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:50:45.037 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 94.7743ms
+2023-05-27 11:51:07.247 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:51:07.251 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:51:07.291 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:51:07.364 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:51:07.387 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:51:07.392 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:51:07.402 +05:30 [INF] Executed ViewResult - view Exceptional executed in 11.1045ms.
+2023-05-27 11:51:07.405 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 103.9764ms
+2023-05-27 11:51:07.407 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:51:07.416 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 168.4288ms
+2023-05-27 11:51:09.278 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:51:09.307 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:51:09.320 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:51:09.338 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:51:09.342 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:51:09.354 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:51:09.357 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:51:09.366 +05:30 [INF] Executed ViewResult - view Login executed in 9.9167ms.
+2023-05-27 11:51:09.370 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:51:09.386 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 48.0377ms
+2023-05-27 11:51:09.397 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:51:09.412 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 130.8208ms
+2023-05-27 11:52:08.680 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 11:52:08.854 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 11:52:08.860 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 11:52:08.862 +05:30 [INF] Hosting environment: Development
+2023-05-27 11:52:08.864 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 11:52:45.847 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 11:52:45.908 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 11:52:46.010 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:52:46.063 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:52:46.073 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:52:46.078 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:52:46.083 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:52:46.116 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 11:52:46.261 +05:30 [INF] Executed ViewResult - view Welcome executed in 155.9115ms.
+2023-05-27 11:52:46.270 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:52:46.277 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 209.2717ms
+2023-05-27 11:52:46.283 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 11:52:46.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 459.8600ms
+2023-05-27 11:52:48.328 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 11:52:48.342 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:52:48.350 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:52:48.356 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:52:48.359 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:52:48.362 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:52:48.368 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 11:52:48.393 +05:30 [INF] Executed ViewResult - view Interface executed in 28.023ms.
+2023-05-27 11:52:48.396 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:52:48.399 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 44.1888ms
+2023-05-27 11:52:48.403 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 11:52:48.414 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 84.8628ms
+2023-05-27 11:52:50.248 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:52:50.291 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:52:50.298 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:52:50.310 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:52:50.313 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:52:50.315 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:52:50.319 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:52:50.484 +05:30 [INF] Executed ViewResult - view Login executed in 167.4372ms.
+2023-05-27 11:52:50.491 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:52:50.493 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 182.952ms
+2023-05-27 11:52:50.501 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:52:50.511 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 263.1179ms
+2023-05-27 11:52:50.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - -
+2023-05-27 11:52:50.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - - - 404 0 - 4.3274ms
+2023-05-27 11:53:06.699 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:53:06.702 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:06.745 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:53:06.835 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:53:21.036 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:53:21.043 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:53:21.059 +05:30 [INF] Executed ViewResult - view Exceptional executed in 16.9642ms.
+2023-05-27 11:53:21.077 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 14297.1185ms
+2023-05-27 11:53:21.091 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:21.106 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 14399.6432ms
+2023-05-27 11:53:24.549 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:53:24.558 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:24.564 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:53:24.583 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:53:24.589 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:53:24.592 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:53:24.594 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:53:24.601 +05:30 [INF] Executed ViewResult - view Login executed in 7.4697ms.
+2023-05-27 11:53:24.614 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:53:24.617 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 33.525ms
+2023-05-27 11:53:24.624 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:24.627 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 77.5052ms
+2023-05-27 11:53:36.451 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:53:36.465 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:36.491 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:53:36.503 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:53:50.521 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:53:50.545 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:53:50.565 +05:30 [INF] Executed ViewResult - view Exceptional executed in 20.7779ms.
+2023-05-27 11:53:50.629 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 14130.1ms
+2023-05-27 11:53:50.671 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:50.683 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 14231.1283ms
+2023-05-27 11:53:53.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 11:53:53.590 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:53.593 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:53:53.603 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:53:53.609 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:53:53.621 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 11:53:53.723 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 11:53:53.728 +05:30 [INF] Executed ViewResult - view Login executed in 5.1884ms.
+2023-05-27 11:53:53.730 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 11:53:53.732 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 128.9608ms
+2023-05-27 11:53:53.754 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:53:53.758 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 179.9647ms
+2023-05-27 11:54:25.079 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244
+2023-05-27 11:54:25.087 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:54:25.094 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 11:54:25.113 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 11:54:40.125 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 11:54:40.128 +05:30 [INF] Executing ViewResult, running view Exceptional.
+2023-05-27 11:54:40.132 +05:30 [INF] Executed ViewResult - view Exceptional executed in 4.3742ms.
+2023-05-27 11:54:40.137 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 15025.7887ms
+2023-05-27 11:54:40.156 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 11:54:40.161 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 244 - 200 - text/html;+charset=utf-8 15082.6347ms
+2023-05-27 12:04:55.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Login - -
+2023-05-27 12:04:55.830 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 12:04:55.832 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:04:55.841 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:04:55.848 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:04:55.852 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:04:55.856 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 12:04:55.862 +05:30 [INF] Executed ViewResult - view Login executed in 6.4885ms.
+2023-05-27 12:04:55.865 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:04:55.898 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 56.7644ms
+2023-05-27 12:04:55.913 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 12:04:55.930 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Login - - - 200 - text/html;+charset=utf-8 117.1987ms
+2023-05-27 12:08:25.085 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 245
+2023-05-27 12:08:25.117 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 12:08:25.128 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:08:25.139 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:08:25.291 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:08:25.294 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:08:25.297 +05:30 [INF] Executing ViewResult, running view Login.
+2023-05-27 12:08:25.305 +05:30 [INF] Executed ViewResult - view Login executed in 8.1928ms.
+2023-05-27 12:08:25.308 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:08:25.309 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Login (ReimbursementClaim) in 172.8136ms
+2023-05-27 12:08:25.315 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Login (ReimbursementClaim)'
+2023-05-27 12:08:25.320 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/Login application/x-www-form-urlencoded 245 - 200 - text/html;+charset=utf-8 234.9389ms
+2023-05-27 12:08:25.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - -
+2023-05-27 12:08:25.418 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Images/dragonz.jpg - - - 404 0 - 5.0062ms
+2023-05-27 12:43:44.523 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 12:43:44.704 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 12:43:44.710 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 12:43:44.713 +05:30 [INF] Hosting environment: Development
+2023-05-27 12:43:44.715 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 12:43:48.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 12:43:48.103 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 12:43:48.212 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 12:43:48.268 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:43:48.278 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:43:48.284 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:43:48.289 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:43:48.324 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 12:43:48.498 +05:30 [INF] Executed ViewResult - view Welcome executed in 185.2842ms.
+2023-05-27 12:43:48.508 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:43:48.517 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 242.2716ms
+2023-05-27 12:43:48.523 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 12:43:48.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 485.1351ms
+2023-05-27 12:43:51.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 12:43:51.191 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 12:43:51.203 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:43:51.210 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:43:51.213 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:43:51.225 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:43:51.235 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 12:43:51.261 +05:30 [INF] Executed ViewResult - view Interface executed in 33.3275ms.
+2023-05-27 12:43:51.265 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:43:51.270 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 60.217ms
+2023-05-27 12:43:51.273 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 12:43:51.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 109.6233ms
+2023-05-27 12:43:53.330 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - -
+2023-05-27 12:43:53.356 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:43:53.362 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:43:53.367 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:43:53.370 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:43:53.372 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:43:53.375 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-27 12:43:53.600 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 226.5531ms.
+2023-05-27 12:43:53.603 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:43:53.606 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 239.358ms
+2023-05-27 12:43:53.609 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:43:53.620 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - - - 200 - text/html;+charset=utf-8 289.7802ms
+2023-05-27 12:43:53.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/Bg.jpg - -
+2023-05-27 12:43:53.709 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/Bg.jpg - - - 404 0 - 5.0814ms
+2023-05-27 12:44:18.640 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/AdminLogin application/x-www-form-urlencoded 244
+2023-05-27 12:44:18.644 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:44:18.679 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:44:18.746 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:44:19.379 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:44:19.382 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:44:19.388 +05:30 [INF] Executing RedirectResult, redirecting to /Home/Verify.
+2023-05-27 12:44:19.391 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:44:19.394 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 708.1557ms
+2023-05-27 12:44:19.406 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:44:19.420 +05:30 [INF] Session started; Key:c2bfaeb6-dca2-0c76-8b92-de2afcddeb96, Id:deaff3cf-2849-8aa3-0492-c60f252b17b5
+2023-05-27 12:44:19.437 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/AdminLogin application/x-www-form-urlencoded 244 - 302 0 - 796.6961ms
+2023-05-27 12:44:19.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Home/Verify - -
+2023-05-27 12:44:19.453 +05:30 [INF] Executing endpoint 'ReimbursementClaim.Controllers.HomeController.Verify (ReimbursementClaim)'
+2023-05-27 12:44:19.471 +05:30 [INF] Route matched with {action = "Verify", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Verify() on controller ReimbursementClaim.Controllers.HomeController (ReimbursementClaim).
+2023-05-27 12:44:19.961 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:44:22.045 +05:30 [INF] Executed DbCommand (153ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Amount], [d].[Currency], [d].[Date], [d].[Description], [d].[Email], [d].[Name], [d].[PhoneNumber], [d].[Status], [d].[Type]
+FROM [detail] AS [d]
+2023-05-27 12:44:22.207 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:44:22.215 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:44:22.240 +05:30 [INF] Executing ViewResult, running view Verify.
+2023-05-27 12:44:22.384 +05:30 [INF] Executed ViewResult - view Verify executed in 166.5252ms.
+2023-05-27 12:44:22.393 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:44:22.413 +05:30 [INF] Executed action ReimbursementClaim.Controllers.HomeController.Verify (ReimbursementClaim) in 2938.207ms
+2023-05-27 12:44:22.430 +05:30 [INF] Executed endpoint 'ReimbursementClaim.Controllers.HomeController.Verify (ReimbursementClaim)'
+2023-05-27 12:44:22.482 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Home/Verify - - - 200 - text/html;+charset=utf-8 3034.2025ms
+2023-05-27 12:44:25.874 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - -
+2023-05-27 12:44:25.878 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:44:25.887 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:44:25.899 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:44:25.903 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:44:25.905 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:44:25.908 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-27 12:44:25.921 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 13.4053ms.
+2023-05-27 12:44:25.924 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:44:25.926 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 26.9234ms
+2023-05-27 12:44:25.935 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:44:25.940 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - - - 200 - text/html;+charset=utf-8 65.5217ms
+2023-05-27 12:44:57.153 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 12:44:57.344 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 12:44:57.349 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 12:44:57.351 +05:30 [INF] Hosting environment: Development
+2023-05-27 12:44:57.354 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 12:45:00.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 12:45:01.006 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 12:45:01.103 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 12:45:01.174 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:45:01.187 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:45:01.192 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:45:01.203 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:45:01.247 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 12:45:01.394 +05:30 [INF] Executed ViewResult - view Welcome executed in 161.0487ms.
+2023-05-27 12:45:01.402 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:45:01.407 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 223.8302ms
+2023-05-27 12:45:01.412 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 12:45:01.432 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 457.8827ms
+2023-05-27 12:45:04.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-27 12:45:04.082 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 12:45:04.093 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:45:04.101 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:45:04.105 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:45:04.108 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:45:04.116 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-27 12:45:04.147 +05:30 [INF] Executed ViewResult - view Interface executed in 34.9991ms.
+2023-05-27 12:45:04.153 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:45:04.156 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 56.5019ms
+2023-05-27 12:45:04.165 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-27 12:45:04.171 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 98.9782ms
+2023-05-27 12:45:07.491 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - -
+2023-05-27 12:45:07.520 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:45:07.528 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:45:07.534 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:45:07.536 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:45:07.538 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:45:07.542 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-27 12:45:07.725 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 185.9193ms.
+2023-05-27 12:45:07.729 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:45:07.731 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 197.3565ms
+2023-05-27 12:45:07.734 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:45:07.739 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - - - 200 - text/html;+charset=utf-8 246.4997ms
+2023-05-27 12:45:07.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/Bg.jpg - -
+2023-05-27 12:45:07.827 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/Bg.jpg - - - 404 0 - 5.1336ms
+2023-05-27 12:45:26.395 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/AdminLogin application/x-www-form-urlencoded 244
+2023-05-27 12:45:26.399 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:45:26.436 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:45:26.487 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:45:26.916 +05:30 [INF] Accessing expired session, Key:c2bfaeb6-dca2-0c76-8b92-de2afcddeb96
+2023-05-27 12:45:26.919 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:45:26.921 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:45:26.925 +05:30 [INF] Executing RedirectResult, redirecting to /Details/Employeedetails.
+2023-05-27 12:45:26.928 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:45:26.933 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 493.4298ms
+2023-05-27 12:45:26.938 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 12:45:26.949 +05:30 [INF] Session started; Key:c2bfaeb6-dca2-0c76-8b92-de2afcddeb96, Id:ff2bc551-280b-52db-e2ea-11fdd3be3ff8
+2023-05-27 12:45:26.955 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/AdminLogin application/x-www-form-urlencoded 244 - 302 0 - 559.2563ms
+2023-05-27 12:45:26.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - -
+2023-05-27 12:45:26.965 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 12:45:26.972 +05:30 [INF] Route matched with {action = "Employeedetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Employeedetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 12:45:27.185 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:45:27.188 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:45:27.190 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:45:27.194 +05:30 [INF] Executing ViewResult, running view Employeedetails.
+2023-05-27 12:45:27.314 +05:30 [INF] Executed ViewResult - view Employeedetails executed in 121.8467ms.
+2023-05-27 12:45:27.317 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:45:27.320 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim) in 342.7511ms
+2023-05-27 12:45:27.327 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 12:45:27.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - - - 200 - text/html;+charset=utf-8 376.7628ms
+2023-05-27 12:56:14.245 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/ViewDetails - -
+2023-05-27 12:56:14.253 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.ViewDetails (ReimbursementClaim)'
+2023-05-27 12:56:14.260 +05:30 [INF] Route matched with {action = "ViewDetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewDetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 12:56:14.321 +05:30 [INF] Accessing expired session, Key:c2bfaeb6-dca2-0c76-8b92-de2afcddeb96
+2023-05-27 12:56:14.328 +05:30 [INF] Authorization failed for the request at filter 'ReimbursementClaim.CustomAuthorizeFilter'.
+2023-05-27 12:56:14.332 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-27 12:56:14.337 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.ViewDetails (ReimbursementClaim) in 67.6588ms
+2023-05-27 12:56:14.341 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.ViewDetails (ReimbursementClaim)'
+2023-05-27 12:56:14.346 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/ViewDetails - - - 302 0 - 100.5213ms
+2023-05-27 12:56:14.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 12:56:14.358 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 12:56:14.362 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 12:56:14.366 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 12:56:14.369 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 12:56:14.372 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 12:56:14.374 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 12:56:14.381 +05:30 [INF] Executed ViewResult - view Welcome executed in 6.4208ms.
+2023-05-27 12:56:14.384 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 12:56:14.388 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 21.5176ms
+2023-05-27 12:56:14.393 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 12:56:14.398 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 43.6162ms
+2023-05-27 14:01:06.220 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-27 14:01:06.415 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-27 14:01:06.418 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-27 14:01:06.419 +05:30 [INF] Hosting environment: Development
+2023-05-27 14:01:06.419 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-27 14:01:07.069 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-27 14:01:07.351 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-27 14:01:07.460 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 14:01:07.517 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 14:01:07.523 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:07.526 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:07.531 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:07.550 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-27 14:01:07.725 +05:30 [INF] Executed ViewResult - view Welcome executed in 185.2271ms.
+2023-05-27 14:01:07.732 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:07.737 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 218.0875ms
+2023-05-27 14:01:07.737 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-27 14:01:07.754 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 697.1660ms
+2023-05-27 14:01:07.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:07.811 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 8.9639ms
+2023-05-27 14:01:10.911 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - -
+2023-05-27 14:01:10.923 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 14:01:10.930 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 14:01:10.932 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:10.933 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:10.935 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:10.940 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-27 14:01:11.103 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 166.9545ms.
+2023-05-27 14:01:11.103 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:11.103 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 172.5247ms
+2023-05-27 14:01:11.103 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 14:01:11.104 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - - - 200 - text/html;+charset=utf-8 193.0377ms
+2023-05-27 14:01:11.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:11.124 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.0286ms
+2023-05-27 14:01:11.221 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/Bg.jpg - -
+2023-05-27 14:01:11.231 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/Bg.jpg - - - 404 0 - 8.9059ms
+2023-05-27 14:01:30.300 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5148/Login/AdminLogin application/x-www-form-urlencoded 244
+2023-05-27 14:01:30.337 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 14:01:30.366 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin(ReimbursementClaim.Repository) on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 14:01:30.414 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:30.865 +05:30 [INF] Accessing expired session, Key:c2bfaeb6-dca2-0c76-8b92-de2afcddeb96
+2023-05-27 14:01:30.865 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:30.866 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:30.868 +05:30 [INF] Executing RedirectResult, redirecting to /Details/Employeedetails.
+2023-05-27 14:01:30.868 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:30.869 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 502.1997ms
+2023-05-27 14:01:30.870 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 14:01:30.878 +05:30 [INF] Session started; Key:c2bfaeb6-dca2-0c76-8b92-de2afcddeb96, Id:b79f6ff5-0c2d-eca9-cfb3-1f71b9d98d78
+2023-05-27 14:01:30.879 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5148/Login/AdminLogin application/x-www-form-urlencoded 244 - 302 0 - 579.7863ms
+2023-05-27 14:01:30.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - -
+2023-05-27 14:01:30.888 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 14:01:30.893 +05:30 [INF] Route matched with {action = "Employeedetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Employeedetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 14:01:31.102 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:31.103 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:31.103 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:31.104 +05:30 [INF] Executing ViewResult, running view Employeedetails.
+2023-05-27 14:01:31.197 +05:30 [INF] Executed ViewResult - view Employeedetails executed in 93.9418ms.
+2023-05-27 14:01:31.197 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:31.197 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim) in 303.9924ms
+2023-05-27 14:01:31.197 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 14:01:31.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - - - 200 - text/html;+charset=utf-8 316.1130ms
+2023-05-27 14:01:31.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:31.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3604ms
+2023-05-27 14:01:34.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/ViewDetails - -
+2023-05-27 14:01:34.889 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.ViewDetails (ReimbursementClaim)'
+2023-05-27 14:01:34.895 +05:30 [INF] Route matched with {action = "ViewDetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewDetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 14:01:35.129 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:36.964 +05:30 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Amount], [d].[Currency], [d].[Date], [d].[Description], [d].[Email], [d].[Name], [d].[PhoneNumber], [d].[Status], [d].[Type]
+FROM [detail] AS [d]
+WHERE 0 = 1
+2023-05-27 14:01:37.001 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:37.001 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:37.003 +05:30 [INF] Executing ViewResult, running view ViewDetails.
+2023-05-27 14:01:37.023 +05:30 [INF] Executed ViewResult - view ViewDetails executed in 22.0133ms.
+2023-05-27 14:01:37.023 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:37.024 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.ViewDetails (ReimbursementClaim) in 2128.6648ms
+2023-05-27 14:01:37.024 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.ViewDetails (ReimbursementClaim)'
+2023-05-27 14:01:37.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/ViewDetails - - - 200 - text/html;+charset=utf-8 2175.6396ms
+2023-05-27 14:01:37.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:37.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.7789ms
+2023-05-27 14:01:38.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - -
+2023-05-27 14:01:38.640 +05:30 [INF] Executing endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 14:01:38.643 +05:30 [INF] Route matched with {action = "Employeedetails", controller = "Details"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Employeedetails() on controller ReimbursementClaim.DetailsController (ReimbursementClaim).
+2023-05-27 14:01:38.645 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:38.645 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:38.645 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:38.645 +05:30 [INF] Executing ViewResult, running view Employeedetails.
+2023-05-27 14:01:38.681 +05:30 [INF] Executed ViewResult - view Employeedetails executed in 35.3702ms.
+2023-05-27 14:01:38.681 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:38.681 +05:30 [INF] Executed action ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim) in 38.0023ms
+2023-05-27 14:01:38.681 +05:30 [INF] Executed endpoint 'ReimbursementClaim.DetailsController.Employeedetails (ReimbursementClaim)'
+2023-05-27 14:01:38.681 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Details/Employeedetails - - - 200 - text/html;+charset=utf-8 44.0009ms
+2023-05-27 14:01:38.702 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:38.703 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4836ms
+2023-05-27 14:01:39.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - -
+2023-05-27 14:01:39.565 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 14:01:39.566 +05:30 [INF] Route matched with {action = "AdminLogin", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminLogin() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-27 14:01:39.566 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-05-27 14:01:39.566 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-05-27 14:01:39.566 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-05-27 14:01:39.567 +05:30 [INF] Executing ViewResult, running view AdminLogin.
+2023-05-27 14:01:39.581 +05:30 [INF] Executed ViewResult - view AdminLogin executed in 14.4337ms.
+2023-05-27 14:01:39.582 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-05-27 14:01:39.582 +05:30 [INF] Executed action ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim) in 16.2053ms
+2023-05-27 14:01:39.582 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.AdminLogin (ReimbursementClaim)'
+2023-05-27 14:01:39.583 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/AdminLogin - - - 200 - text/html;+charset=utf-8 17.8436ms
+2023-05-27 14:01:39.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:39.619 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.7711ms
+2023-05-27 14:01:40.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2023-05-27 14:01:40.817 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4339ms

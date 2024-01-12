@@ -1,0 +1,276 @@
+@inject IHttpContextAccessor context;
+@model ReimbursementClaim.ClaimDetails
+<style>
+	<style>
+    body {
+        background-color: rgb(216, 128, 216);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+   <style type="text/css">
+   
+    /* Rest of your CSS code */
+    
+
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+   .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #f44308;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="tel"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(66, 166, 187, 0.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#0f1010;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="tel"]:focus,
+.form-style-5 input[type="dateonly"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #9fc7dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.back{
+	background-color: #f44308;
+}
+.error-message {
+  color: red;
+}
+
+.form-style-5 .number {
+	background: #13b098;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #000000;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #109177;
+}
+</style>
+</style>
+<html>
+<title>Verification</title>
+	<nav class="navbar navbar-light bg-light justify-content-between">
+
+    <div class="d-flex">
+        <form class="form-inline">
+            <button class="btn btn-outline-success my-2 my-sm-0 login-button" type="submit">
+                <a href="/Home/AdminDashBoard" class="link-success">Back</a>
+            </button>
+        </form>
+    </div>
+</nav>
+
+
+
+ @using (Html.BeginForm()){	
+	<br></br>
+
+	 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+<div class="form-style-5">
+	
+<form method="post" >
+<fieldset>
+<legend><span class="number">1</span> Candidate Info</legend>
+
+<div  class="form-group">
+<input type="text" asp-for="Name" name="Name" class="form-control required" placeholder="Enter Your Name *" readonly>
+
+</div>
+
+<div class="form-group">
+
+<input type="email" name="Email" asp-for="Email" class="form-control required" placeholder="Enter Your Email *" readonly>
+
+</div>
+
+
+
+<div class="form-group">	
+<input type="tel" name="PhoneNumber" asp-for="PhoneNumber" class="form-control required" placeholder="Enter Your PhoneNumber*" readonly>
+
+</div>
+</fieldset>
+<fieldset>
+<legend><span class="number">2</span> Reimbursement Info</legend>
+
+<div class="form-group">
+ 
+
+<!--<label for="Type" asp-for="Type">Reimbursement Type:</label >-->
+<div>
+<select id="Type" asp-for="Type" class="form-control required" name="Type" readonly>
+
+	
+<optgroup label="Choose...">
+   
+  <option value="Travel">Travel</option>
+  <option value="Medical">Medical</option>
+  <option value="Team Occusation">Team Occusation</option>
+  <option value="Office Allowances">Office Allowances</option>
+  <option value="Other">Other</option>
+</optgroup>
+</select> 
+
+</div>
+
+<div class="form-group">
+<!--<label>Date:</label>-->
+
+<input type="date" asp-for="Date" name="Date"  min="2023-05-01" id="myDateInput" placeholder="Choose the current date" readonly>
+
+</div>
+
+<div class="form-group">
+<!--<label for="amount">Amount:</label>-->
+
+<input type="number" id="amount" asp-for="Amount" name="Amount"  class="input" placeholder="Enter Your Reimbursement Amount*" readonly>
+
+</div>
+
+ <div class="form-group">
+			<!--<label for="currency">Currency:</label>-->
+		
+			<select id="currency" asp-for="Currency" name="Currency"  class="input" readonly>
+				<option value="INR">INR</option>
+				<option value="USD">USD</option>
+				<option value="EUR">EUR</option>
+			</select>
+			
+</div>
+
+		  <div class="form-group">
+         <!--<label for="amount">Description:</label>-->
+		
+        <textarea name="Description"  asp-for="Description" class="form-control required" placeholder="Additional details" readonly></textarea>
+          
+		  </div>
+
+          <div class="form-group">
+			<!--<label for="currency">Currency:</label>-->
+		
+			<select id="Status" asp-for="Status" name="Status"  class="input">
+				<option value="Approved">Accept</option>
+				<option value="Rejected">Reject</option>
+				
+			</select>
+			 
+</div>
+
+     
+</fieldset>
+<input type="submit" value="Submit" /><a href="/Home/AdminDashBoard"></a>
+</form>
+</div>
+ }
+</html>
+<html>
+	
+	<!--<div class="login-container">
+<button class="login-button"><a href="/Login/Interface"  class="link-success">LogOut</a></button>
+</div>-->
+</html>
+<script>
+	const dateInput = document.getElementById('myDateInput');
+   const currentDate = new Date().toISOString().split('T')[0];
+    dateInput.setAttribute('max', currentDate);
+</script>

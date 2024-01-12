@@ -1,0 +1,38 @@
+2023-06-25 21:00:36.299 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-25 21:00:36.592 +05:30 [INF] Now listening on: http://localhost:5148
+2023-06-25 21:00:36.596 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-25 21:00:36.597 +05:30 [INF] Hosting environment: Development
+2023-06-25 21:00:36.599 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-06-25 21:00:40.965 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-06-25 21:00:41.029 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-06-25 21:00:41.094 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-06-25 21:00:41.195 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-06-25 21:00:41.219 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-06-25 21:00:41.225 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-06-25 21:00:41.229 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-06-25 21:00:41.288 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-06-25 21:00:41.563 +05:30 [INF] Executed ViewResult - view Welcome executed in 300.7734ms.
+2023-06-25 21:00:41.571 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-06-25 21:00:41.576 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 364.9379ms
+2023-06-25 21:00:41.580 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-06-25 21:00:41.610 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 654.8442ms
+2023-06-25 21:00:41.649 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/styles.css - -
+2023-06-25 21:00:41.659 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-06-25 21:00:41.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/9.png - -
+2023-06-25 21:00:41.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/13.png - -
+2023-06-25 21:00:41.671 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/14.png - -
+2023-06-25 21:00:41.673 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/styles.css - - - 404 0 - 23.7791ms
+2023-06-25 21:00:41.680 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/12.png - -
+2023-06-25 21:00:41.694 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/15.png - -
+2023-06-25 21:00:41.732 +05:30 [INF] The file /image/9.png was not modified
+2023-06-25 21:00:41.732 +05:30 [INF] The file /js/site.js was not modified
+2023-06-25 21:00:41.732 +05:30 [INF] The file /image/12.png was not modified
+2023-06-25 21:00:41.734 +05:30 [INF] The file /image/13.png was not modified
+2023-06-25 21:00:41.734 +05:30 [INF] The file /image/14.png was not modified
+2023-06-25 21:00:41.734 +05:30 [INF] The file /image/15.png was not modified
+2023-06-25 21:00:41.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/9.png - - - 304 - image/png 72.2717ms
+2023-06-25 21:00:41.742 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/12.png - - - 304 - image/png 62.2106ms
+2023-06-25 21:00:41.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 82.7801ms
+2023-06-25 21:00:41.750 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/13.png - - - 304 - image/png 79.5281ms
+2023-06-25 21:00:41.754 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/14.png - - - 304 - image/png 82.6809ms
+2023-06-25 21:00:41.758 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/15.png - - - 304 - image/png 63.4612ms

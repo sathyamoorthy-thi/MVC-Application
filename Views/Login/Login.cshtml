@@ -1,0 +1,155 @@
+@model UserCredentials
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+        body {
+            background-image: url("https://img.freepik.com/premium-photo/top-view-laptop-with-lock-copy-space_23-2148578046.jpg?w=996");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .login-container {
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        .login-container-blur {
+            background-color: rgba(63, 150, 177, 0.8));
+            backdrop-filter: blur(5px);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .error-message {
+            color: red;
+        }
+
+        .login-logo {
+            position: relative;
+            margin-left: -41.5%;
+        }
+
+        .login-logo img {
+            position: absolute;
+            width: 20%;
+            margin-top: 19%;
+            background: #282726;
+            border-radius: 4.5rem;
+            padding: 5%;
+        }
+
+        .login-icon {
+            width: 150px;
+            margin-right: 10px;
+        }
+
+        .login-form-1 {
+            padding: 9%;
+            background: #c29ec9;
+            box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .login-form-1 h3 {
+            text-align: center;
+            margin-bottom: 12%;
+            color: #fff;
+        }
+
+        .btnSubmit {
+            font-weight: 600;
+            width: 100%;
+            color: #282726;
+            background-color: #6bda99;
+            border: none;
+            border-radius: 1.5rem;
+            padding: 5%;
+        }
+        
+
+        .btnForgetPwd {
+            color: #da2828;
+            font-weight: 600;
+            text-decoration: none;
+        }
+         .createid {
+            color: #b028da;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .btnForgetPwd:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Add hover effect for text boxes */
+        input[type="text"]:hover,
+        input[type="email"]:hover,
+        input[type="password"]:hover {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function () { };
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css) {
+            if (css)
+                $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="' + css + '" type="text/css" />');
+            else
+                $('head > link').filter(':first').replaceWith(defaultCSS);
+        }
+        $(document).ready(function () {
+            var iframe_height = parseInt($('html').height());
+            window.parent.postMessage(iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <div class="login-container-blur">
+                        <h3>
+                            <img src="~/image/7.png" alt="Login" class="login-icon">
+                        </h3>
+                        <h3 style="color: #282726;" style="font-family:'Times New Roman';">LOGIN</h3>
+                        <form method="post">
+                            <div class="form-group">
+                                <input type="text" asp-for="username" class="form-control" placeholder="Your Username">
+                                <span class="error-message">@Html.ValidationMessageFor(m => m.username)</span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" asp-for="emailAddress" class="form-control" placeholder="Your Email">
+                                <span class="error-message">@Html.ValidationMessageFor(m => m.emailAddress)</span>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" asp-for="password" class="form-control" placeholder="Your Password">
+                                <span class="error-message">@Html.ValidationMessageFor(m => m.password)</span>
+                            </div>
+                            <div class="form-group" style="padding-left: calc(75px - 2cm);">
+                                
+                                    <input type="submit" style="color:rgb(5, 7, 7)" class="btnSubmit" value="Login" /><a href="/Home/Verify"></a>
+                            </div>
+                             
+                            <br>
+                            <h3><div>@ViewBag.Message</div></h3>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</body>
+</html>

@@ -1,0 +1,160 @@
+@inject IHttpContextAccessor context;
+@model ReimbursementClaim.ClaimDetails
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AdminDashBoard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background-image: url("https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=740&t=st=1685615729~exp=1685616329~hmac=7a2874878cfd8110ed5173f93cf7270622de7bae87987487095f5bedee47605c");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .navbar {
+      background-color: #8a2be2; /* Light violet color */
+      overflow: hidden;
+      padding: 10px; /* Add padding for space */
+      width: 100%; /* Extend the navbar to full width */
+      display: flex; /* Use flexbox for flexible layout */
+      justify-content: space-between; /* Space items evenly within the navbar */
+      align-items: center; /* Align items vertically */
+    }
+
+    .logo {
+      display: flex; /* Use flexbox to align logo and text vertically */
+      align-items: center; /* Align items vertically */
+    }
+
+    .logo img {
+      height: 60px; /* Adjust the height of the logo image */
+      margin-left: 10px; /* Add spacing between the logo and text */
+    }
+
+    .navbar-buttons {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    /* Rest of your CSS code */
+
+    /* Rest of the CSS code remains the same */
+    .navbar a {
+      color: rgb(8, 6, 6);
+      text-align: center;
+      padding: 10px 16px; /* Adjust padding for space */
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .navbar a.active {
+      background-color: #ff3e3e;
+      color: rgb(5, 0, 0);
+    }
+
+    /* Login button style */
+    .navbar a.login {
+      background-color: #008CBA;
+    }
+
+    .login-container {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 10px;
+    }
+
+    .login-button {
+      background-color: #f53131;
+      border: none;
+      color: rgb(10, 0, 0);
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .button {
+      width: 5cm;
+      height: 3cm;
+      border-radius: 5%;
+      font-size: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Button colors */
+    .button.pending {
+      background-color: #FFA500; /* Orange */
+      color: rgb(255, 255, 255);
+    }
+
+    .button.approved {
+      background-color: #008000; /* Green */
+      color: rgb(255, 255, 255);
+    }
+
+    .button.rejected {
+      background-color: #FF0000; /* Red */
+      color: rgb(255, 255, 255);
+    }
+
+    h2 {  
+  border-color: orange;  
+  border-width: 5px;  
+  border-style: inset;  
+  }   
+  
+    .button.overall {
+      background-color: #800080; /* Purple */
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="~/image/9.png" alt="Logo"> 
+    </div>
+    <div class="navbar-buttons">
+      <a hasp-area="" asp-controller="Home" asp-action="AdminDashBoard">DashBoard</a>
+      
+      
+      <a class="active" asp-area="" asp-controller="Login" asp-action="Welcome"  class="link-success" class="login">Logout</a>
+    </div>
+  </div>
+
+  <!-- Rest of your HTML content -->
+  <div class="content">
+    <br>
+    <h3 style="font-family: Georgia; color: rgb(36, 34, 34);">Hi @context.HttpContext.Session.GetString("username"), Welcome Back!</h3>
+    <h2 style="font-family: Georgia; color: rgb(36, 34, 34);"> You are the administrator, and you have the authorization to approve or reject the reimbursement.As an administrator, you play a vital role in managing and overseeing various aspects of the system. Your expertise and responsibilities contribute to the smooth operation and success of the organization.  </h2>  
+    <div class="button-group">
+      <button class="button pending"><i class="fas fa-clock"></i><a style="color:rgb(255, 255, 255)" asp-area="" asp-controller="Home" asp-action="Pending">PENDING</a></button>
+      <button class="button approved"><i class="fas fa-check-circle"></i><a style="color:rgb(255, 255, 255)" asp-area="" asp-controller="Home" asp-action="Approved">APPROVED</a></button>
+      <button class="button rejected"><i class="fas fa-times-circle"></i><a style="color:rgb(255, 255, 255)" asp-area="" asp-controller="Home" asp-action="Rejected">REJECTED</a></button>
+      <button class="button overall"><i class="fas fa-chart-pie"  class="link-success"></i><a style="color:rgb(255, 255, 255)" asp-area="" asp-controller="Home" asp-action="Verify">OVERALL</a></button>
+    </div>
+  </div>
+</body>
+</html>

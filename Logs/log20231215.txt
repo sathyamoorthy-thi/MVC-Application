@@ -1,0 +1,73 @@
+2023-12-15 11:43:01.101 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 11:43:01.589 +05:30 [INF] Now listening on: http://localhost:5148
+2023-12-15 11:43:01.594 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 11:43:01.597 +05:30 [INF] Hosting environment: Development
+2023-12-15 11:43:01.599 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-12-15 11:44:24.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-12-15 11:44:24.820 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-15 11:44:24.907 +05:30 [INF] Executing endpoint 'ReimbursementClaim.Controllers.LoginController.Welcome (ReimbursementClaim)'
+2023-12-15 11:44:24.983 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.Controllers.LoginController (ReimbursementClaim).
+2023-12-15 11:44:25.000 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-12-15 11:44:25.006 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-12-15 11:44:25.010 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-12-15 11:44:25.047 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-12-15 11:44:25.300 +05:30 [INF] Executed ViewResult - view Welcome executed in 262.6526ms.
+2023-12-15 11:44:25.310 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-12-15 11:44:25.315 +05:30 [INF] Executed action ReimbursementClaim.Controllers.LoginController.Welcome (ReimbursementClaim) in 324.8305ms
+2023-12-15 11:44:25.327 +05:30 [INF] Executed endpoint 'ReimbursementClaim.Controllers.LoginController.Welcome (ReimbursementClaim)'
+2023-12-15 11:44:25.352 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 11:44:25.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-12-15 11:44:25.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/styles.css - -
+2023-12-15 11:44:25.359 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ReimbursementClaim.styles.css?v=wWe8B0gxxzeOVWXChEb2WiCfWWu9g3y8XlTzYY9Nyzs - -
+2023-12-15 11:44:25.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/9.png - -
+2023-12-15 11:44:25.364 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 593.0671ms
+2023-12-15 11:44:25.383 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/styles.css - - - 404 0 - 29.5062ms
+2023-12-15 11:44:25.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/12.png - -
+2023-12-15 11:44:25.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/13.png - -
+2023-12-15 11:44:25.411 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\css\site.css'
+2023-12-15 11:44:25.411 +05:30 [INF] Sending file. Request path: '/ReimbursementClaim.styles.css'. Physical path: 'D:\MVC\ReimbursementClaim\obj\Debug\net7.0\scopedcss\bundle\ReimbursementClaim.styles.css'
+2023-12-15 11:44:25.415 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 61.9731ms
+2023-12-15 11:44:25.419 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ReimbursementClaim.styles.css?v=wWe8B0gxxzeOVWXChEb2WiCfWWu9g3y8XlTzYY9Nyzs - - - 200 1135 text/css 60.2762ms
+2023-12-15 11:44:25.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/15.png - -
+2023-12-15 11:44:25.427 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/14.png - -
+2023-12-15 11:44:25.486 +05:30 [INF] Sending file. Request path: '/image/9.png'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\image\9.png'
+2023-12-15 11:44:25.492 +05:30 [INF] Sending file. Request path: '/image/12.png'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\image\12.png'
+2023-12-15 11:44:25.507 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/9.png - - - 200 42128 image/png 143.4589ms
+2023-12-15 11:44:25.524 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-15 11:44:25.528 +05:30 [INF] Sending file. Request path: '/image/15.png'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\image\15.png'
+2023-12-15 11:44:25.536 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/12.png - - - 200 182884 image/png 144.3923ms
+2023-12-15 11:44:25.539 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 11:44:25.549 +05:30 [INF] Sending file. Request path: '/image/14.png'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\image\14.png'
+2023-12-15 11:44:25.555 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 203.4835ms
+2023-12-15 11:44:25.559 +05:30 [INF] Sending file. Request path: '/image/13.png'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\image\13.png'
+2023-12-15 11:44:25.562 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/15.png - - - 200 148813 image/png 139.0212ms
+2023-12-15 11:44:25.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 11:44:25.570 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/14.png - - - 200 249456 image/png 143.1307ms
+2023-12-15 11:44:25.577 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/13.png - - - 200 420636 image/png 176.9694ms
+2023-12-15 11:44:25.585 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\js\site.js'
+2023-12-15 11:44:25.591 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 24.9812ms
+2023-12-15 11:44:25.694 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-15 11:44:25.698 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 159.6283ms
+2023-12-15 11:44:34.482 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/favicon.ico - -
+2023-12-15 11:44:34.536 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\MVC\ReimbursementClaim\wwwroot\favicon.ico'
+2023-12-15 11:44:34.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/favicon.ico - - - 200 5430 image/x-icon 61.3478ms
+2023-12-15 11:45:52.265 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 11:45:52.555 +05:30 [INF] Now listening on: http://localhost:5148
+2023-12-15 11:45:52.559 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 11:45:52.566 +05:30 [INF] Hosting environment: Development
+2023-12-15 11:45:52.570 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-12-15 11:45:58.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-12-15 11:45:59.057 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-15 11:45:59.225 +05:30 [INF] Executing endpoint 'ReimbursementClaim.Controllers.LoginController.Welcome (ReimbursementClaim)'
+2023-12-15 11:45:59.375 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.Controllers.LoginController (ReimbursementClaim).
+2023-12-15 11:45:59.385 +05:30 [INF] Executing Action filter - OnActionExecuting
+2023-12-15 11:45:59.391 +05:30 [INF] Executing Action filter - OnActionExecuted
+2023-12-15 11:45:59.395 +05:30 [INF] Executing Result filter - OnResultExecuting
+2023-12-15 11:45:59.447 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-12-15 11:45:59.684 +05:30 [INF] Executed ViewResult - view Welcome executed in 254.4466ms.
+2023-12-15 11:45:59.691 +05:30 [INF] Executing Result filter - OnResultExecuted
+2023-12-15 11:45:59.695 +05:30 [INF] Executed action ReimbursementClaim.Controllers.LoginController.Welcome (ReimbursementClaim) in 314.3631ms
+2023-12-15 11:45:59.697 +05:30 [INF] Executed endpoint 'ReimbursementClaim.Controllers.LoginController.Welcome (ReimbursementClaim)'
+2023-12-15 11:45:59.724 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 756.9820ms
+2023-12-15 11:45:59.774 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/styles.css - -
+2023-12-15 11:45:59.805 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/styles.css - - - 404 0 - 30.3747ms

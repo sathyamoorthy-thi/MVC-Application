@@ -1,0 +1,201 @@
+@model List<ReimbursementClaim.ClaimDetails>
+@inject IHttpContextAccessor context;
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DashBoard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="~/image/9.png" alt="Logo"> 
+    </div>
+    <div class="navbar-buttons">
+      <a asp-area="" asp-controller="Details" asp-action="Help">Help</a>
+      <a asp-area="" asp-controller="Login" asp-action="ContactUs">Contact Us</a>
+      <a class="active" asp-area="" asp-controller="Login" asp-action="Welcome"  class="link-success" class="login">Logout</a>
+    </div>
+  </div>
+  
+  <!-- Rest of your HTML content -->
+  
+</body>
+</html>
+
+<style>
+body {
+      background-image: url("https://img.freepik.com/free-vector/abstract-pink-watercolor-background_24100-1146.jpg?w=740&t=st=1685616266~exp=1685616866~hmac=574d3c734cc6abfe748e99f628f65fb49a76bd24953a81540542ef022cbc2d72");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+.navbar {
+  background-color: #8a2be2; /* Light violet color */
+  overflow: hidden;
+  padding: 10px; /* Add padding for space */
+  width: 100%; /* Extend the navbar to full width */
+  display: flex; /* Use flexbox for flexible layout */
+  justify-content: space-between; /* Space items evenly within the navbar */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  display: flex; /* Use flexbox to align logo and text vertically */
+  align-items: center; /* Align items vertically */
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of the logo image */
+  margin-left: 10px; /* Add spacing between the logo and text */
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Rest of your CSS code */
+
+
+
+/* Rest of the CSS code remains the same */
+.navbar a {
+  color: rgb(8, 6, 6);
+  text-align: center;
+  padding: 10px 16px; /* Adjust padding for space */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #ff2e2e;
+  color: rgb(5, 0, 0);
+}
+
+/* Login button style */
+.navbar a.login {
+  background-color: #008CBA;
+}
+
+
+ <style>
+    .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #a31313;
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.light-blue-table {
+      background-color: #daa8d1;
+    }
+
+    .button-63 {
+  align-items: right;
+  background-image: linear-gradient(144deg,#50a1c9, #766eaf 50%,rgb(48, 48, 73));
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+.media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+ </style>   
+
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+
+<h3 style="font-family: Georgia" style="color: rgb(36, 34, 34);">Hi @context.HttpContext.Session.GetString("username"),Welcome Back!</h3>
+<br></br>
+<!-- HTML !-->
+<button class="button-63" role="button"><a style="color:rgb(255, 255, 255)" asp-area="" asp-controller="Details" asp-action="Employeedetails"  class="link-success">+Apply Reimbursement</a></button>
+<br></br>
+<h2 style="color: #292626;" style="font-weight: bolder;">Reimbursement History:</h2>
+
+<div class="row">
+        <div class="col-md-12">
+            <table  class="table light-blue-table">
+                <thead>
+                    <tr style="font-weight: bolder;">
+                       
+                        
+                        <td><span class="badge bg-danger">Type</span></td>
+                        <td><span class="badge bg-danger">Date</span></td>
+                        <td><span class="badge bg-danger">Amount</span></td>
+                        <td><span class="badge bg-danger">Currency</span></td>
+                        <td><span class="badge bg-danger">Description</span></td>
+                        <td><span class="badge bg-danger">Status</span></td>
+
+                   </tr>
+                </thead>
+                <tbody>
+                  @if(Model != null) 
+                    {
+                    foreach(var item in Model)
+                    {
+                        <tr>
+                         
+                      <td>@Html.DisplayFor(ModelItem => item.Type)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Date)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Amount)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Currency)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Description)</td> 
+                      <td>@Html.DisplayFor(ModelItem => item.Status)</td> 
+  
+                        </tr>
+                        
+                    }
+                    }
+                </tbody>
+            </table>

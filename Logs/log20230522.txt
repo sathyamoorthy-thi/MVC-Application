@@ -1,0 +1,99 @@
+2023-05-22 20:33:50.101 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-22 20:33:50.298 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-22 20:33:50.303 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-22 20:33:50.305 +05:30 [INF] Hosting environment: Development
+2023-05-22 20:33:50.307 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-22 20:33:53.384 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-22 20:33:53.458 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-22 20:33:53.536 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 20:33:53.600 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-22 20:33:53.657 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-22 20:33:53.853 +05:30 [INF] Executed ViewResult - view Welcome executed in 209.3708ms.
+2023-05-22 20:33:53.869 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 262.0265ms
+2023-05-22 20:33:53.873 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 20:33:53.885 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-05-22 20:33:53.885 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ReimbursementClaim.styles.css?v=wWe8B0gxxzeOVWXChEb2WiCfWWu9g3y8XlTzYY9Nyzs - -
+2023-05-22 20:33:53.885 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-05-22 20:33:53.912 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 538.5824ms
+2023-05-22 20:33:53.927 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/lib/jquery/dist/jquery.min.js - -
+2023-05-22 20:33:53.952 +05:30 [INF] The file /ReimbursementClaim.styles.css was not modified
+2023-05-22 20:33:53.952 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-05-22 20:33:53.952 +05:30 [INF] The file /css/site.css was not modified
+2023-05-22 20:33:53.952 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-05-22 20:33:53.959 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 74.6459ms
+2023-05-22 20:33:53.959 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ReimbursementClaim.styles.css?v=wWe8B0gxxzeOVWXChEb2WiCfWWu9g3y8XlTzYY9Nyzs - - - 304 - text/css 74.8037ms
+2023-05-22 20:33:53.962 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 304 - text/css 77.2129ms
+2023-05-22 20:33:53.964 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 37.5655ms
+2023-05-22 20:33:53.983 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/1.png - -
+2023-05-22 20:33:53.985 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/3.png - -
+2023-05-22 20:33:53.986 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/image/2.png - -
+2023-05-22 20:33:53.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-05-22 20:33:53.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-05-22 20:33:53.990 +05:30 [INF] The file /image/1.png was not modified
+2023-05-22 20:33:53.993 +05:30 [INF] The file /image/3.png was not modified
+2023-05-22 20:33:53.997 +05:30 [INF] The file /image/2.png was not modified
+2023-05-22 20:33:54.002 +05:30 [INF] The file /js/site.js was not modified
+2023-05-22 20:33:54.005 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-05-22 20:33:54.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/1.png - - - 304 - image/png 23.7937ms
+2023-05-22 20:33:54.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/3.png - - - 304 - image/png 25.2244ms
+2023-05-22 20:33:54.013 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/image/2.png - - - 304 - image/png 27.7055ms
+2023-05-22 20:33:54.017 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 30.0986ms
+2023-05-22 20:33:54.020 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 31.5315ms
+2023-05-22 20:33:57.563 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-22 20:33:57.574 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-22 20:33:57.588 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-22 20:33:57.605 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-22 20:33:57.635 +05:30 [INF] Executed ViewResult - view Interface executed in 35.5471ms.
+2023-05-22 20:33:57.639 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 45.0253ms
+2023-05-22 20:33:57.643 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-22 20:33:57.654 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 90.6780ms
+2023-05-22 20:34:51.888 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-22 20:34:52.099 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-22 20:34:52.104 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-22 20:34:52.106 +05:30 [INF] Hosting environment: Development
+2023-05-22 20:34:52.108 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-22 20:34:55.239 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-22 20:34:55.282 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-22 20:34:55.373 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 20:34:55.420 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-22 20:34:55.463 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-22 20:34:55.636 +05:30 [INF] Executed ViewResult - view Welcome executed in 181.4677ms.
+2023-05-22 20:34:55.647 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 218.4829ms
+2023-05-22 20:34:55.650 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 20:34:55.672 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 441.7344ms
+2023-05-22 21:23:05.941 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-22 21:23:06.140 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-22 21:23:06.145 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-22 21:23:06.147 +05:30 [INF] Hosting environment: Development
+2023-05-22 21:23:06.150 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-22 21:23:09.809 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-22 21:23:09.868 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-22 21:23:09.983 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 21:23:10.041 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-22 21:23:10.098 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-22 21:23:10.255 +05:30 [INF] Executed ViewResult - view Welcome executed in 169.5193ms.
+2023-05-22 21:23:10.264 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 217.4806ms
+2023-05-22 21:23:10.267 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 21:23:10.283 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 476.4051ms
+2023-05-22 21:23:12.161 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/Login/Interface - -
+2023-05-22 21:23:12.175 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-22 21:23:12.184 +05:30 [INF] Route matched with {action = "Interface", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Interface() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-22 21:23:12.198 +05:30 [INF] Executing ViewResult, running view Interface.
+2023-05-22 21:23:12.229 +05:30 [INF] Executed ViewResult - view Interface executed in 37.1323ms.
+2023-05-22 21:23:12.233 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Interface (ReimbursementClaim) in 44.2919ms
+2023-05-22 21:23:12.237 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Interface (ReimbursementClaim)'
+2023-05-22 21:23:12.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/Login/Interface - - - 200 - text/html;+charset=utf-8 81.6188ms
+2023-05-22 22:23:31.797 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-22 22:23:31.983 +05:30 [INF] Now listening on: http://localhost:5148
+2023-05-22 22:23:31.988 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-22 22:23:31.991 +05:30 [INF] Hosting environment: Development
+2023-05-22 22:23:31.993 +05:30 [INF] Content root path: D:\MVC\ReimbursementClaim
+2023-05-22 22:23:40.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5148/ - -
+2023-05-22 22:23:40.498 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-22 22:23:40.641 +05:30 [INF] Executing endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 22:23:40.713 +05:30 [INF] Route matched with {action = "Welcome", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller ReimbursementClaim.LoginController (ReimbursementClaim).
+2023-05-22 22:23:40.785 +05:30 [INF] Executing ViewResult, running view Welcome.
+2023-05-22 22:23:40.994 +05:30 [INF] Executed ViewResult - view Welcome executed in 228.6477ms.
+2023-05-22 22:23:41.007 +05:30 [INF] Executed action ReimbursementClaim.LoginController.Welcome (ReimbursementClaim) in 287.0112ms
+2023-05-22 22:23:41.013 +05:30 [INF] Executed endpoint 'ReimbursementClaim.LoginController.Welcome (ReimbursementClaim)'
+2023-05-22 22:23:41.035 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5148/ - - - 200 - text/html;+charset=utf-8 649.4916ms

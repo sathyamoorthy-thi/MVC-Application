@@ -1,0 +1,373 @@
+@inject IHttpContextAccessor context;
+@model ReimbursementClaim.ClaimDetails
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>ApplyReimbursement</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="~/image/9.png" alt="Logo"> 
+    </div>
+    <div class="navbar-buttons">
+   
+	  <a href="/details/ViewDetails">DashBoard</a>
+      <a asp-area="" asp-controller="Details" asp-action="Help">Help</a> 
+      <a asp-area="" asp-controller="Login" asp-action="ContactUs">Contact Us</a>
+     <a class="active" asp-area="" asp-controller="Login" asp-action="Welcome"  class="link-success" class="login">Logout</a>
+    </div>
+  </div>
+  
+  <!-- Rest of your HTML content -->
+  
+</body>
+</html>
+
+<style>
+
+   body {
+      background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg?w=740&t=st=1685616031~exp=1685616631~hmac=f9061b7311d449762c007f020ccf62882815cd9974672fc7fe7929bdff574906");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+.navbar {
+  background-color: #8a2be2; /* Light violet color */
+  overflow: hidden;
+  padding: 10px; /* Add padding for space */
+  width: 100%; /* Extend the navbar to full width */
+  display: flex; /* Use flexbox for flexible layout */
+  justify-content: space-between; /* Space items evenly within the navbar */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  display: flex; /* Use flexbox to align logo and text vertically */
+  align-items: center; /* Align items vertically */
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of the logo image */
+  margin-left: 10px; /* Add spacing between the logo and text */
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Rest of your CSS code */
+
+
+
+/* Rest of the CSS code remains the same */
+.navbar a {
+  color: rgb(8, 6, 6);
+  text-align: center;
+  padding: 10px 16px; /* Adjust padding for space */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #eb3d3d;
+  color: rgb(5, 0, 0);
+}
+
+/* Login button style */
+.navbar a.login {
+  background-color: #008CBA;
+}
+
+
+ <style>
+    .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ </style> 
+<style>
+   <style type="text/css">
+  
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+   .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #f44308;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="tel"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(66, 166, 187, 0.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#0f1010;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="tel"]:focus,
+.form-style-5 input[type="dateonly"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #9fc7dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.back{
+	background-color: #f44308;
+}
+.error-message {
+  color: red;
+}
+
+.form-style-5 .number {
+	background: #13b098;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #000000;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #109177;
+}
+</style>
+</style>
+<html>
+
+         
+
+	<h3>Hi @context.HttpContext.Session.GetString("username") Here you can Enter your Allowances Details</h3>
+ @using (Html.BeginForm()){	
+	<br></br>
+<div class="form-style-5">
+	
+<form method="post" >
+<fieldset>
+<legend><span class="number">1</span> Candidate Info</legend>
+
+<div  class="form-group">
+@Html.DisplayNameFor(m => m.Name)
+<input type="text" asp-for="Name" name="Name" class="form-control required" value="@Context.Session.GetString("username")" / >
+<span class="error-message">@Html.ValidationMessageFor(m => m.Name)</span>
+</div>
+
+<div class="form-group">
+@Html.DisplayNameFor(m => m.Email)
+<input type="email" name="Email" asp-for="Email" class="form-control required" value="@Context.Session.GetString("mailid")" />
+<span class="error-message">@Html.ValidationMessageFor(m => m.Email)</span>
+</div>
+
+
+
+<div class="form-group">
+@Html.DisplayNameFor(m => m.PhoneNumber)	
+<input type="tel" name="PhoneNumber" asp-for="PhoneNumber" class="form-control required"  >
+<span class="error-message">@Html.ValidationMessageFor(m => m.PhoneNumber)</span>
+</div>
+</fieldset>
+<fieldset>
+<legend><span class="number">2</span> Reimbursement Info</legend>
+
+<div class="form-group">
+ 
+@Html.DisplayNameFor(m => m.Type) 
+<!--<label for="Type" asp-for="Type">Reimbursement Type:</label >-->
+<div>
+<select id="Type" asp-for="Type" class="form-control required" name="Type" >
+
+	
+<optgroup label="Choose...">
+   
+  <option value="Travel">Travel</option>
+  <option value="Medical">Medical</option>
+  <option value="Team Occusation">Team Occusation</option>
+  <option value="Office Allowances">Office Allowances</option>
+  <option value="Other">Other</option>
+</optgroup>
+</select> 
+<span class="error-message">@Html.ValidationMessageFor(m => m.Type)</span>
+</div>
+
+<div class="form-group">
+<!--<label>Date:</label>-->
+@Html.DisplayNameFor(m => m.Date)
+<input type="date" asp-for="Date" name="Date"  min="2023-05-01" id="myDateInput" placeholder="Choose the current date" >
+<span class="error-message">@Html.ValidationMessageFor(m => m.Date)</span>
+</div>
+
+<div class="form-group">
+<!--<label for="amount">Amount:</label>-->
+@Html.DisplayNameFor(m => m.Amount)
+<input type="number" id="amount" asp-for="Amount" name="Amount"  class="input"  >
+<span class="error-message">@Html.ValidationMessageFor(m => m.Amount)</span>
+</div>
+
+ <div class="form-group">
+			<!--<label for="currency">Currency:</label>-->
+			@Html.DisplayNameFor(m => m.Currency)
+			<select id="currency" asp-for="Currency" name="Currency"  class="input">
+				<option value="INR">INR</option>
+				<option value="USD">USD</option>
+				<option value="EUR">EUR</option>
+			</select>
+			 <span class="error-message">@Html.ValidationMessageFor(m => m.Currency)</span>
+</div>
+
+		  <div class="form-group">
+         <!--<label for="amount">Description:</label>-->
+		 @Html.DisplayNameFor(m => m.Description)
+        <textarea name="Description"  asp-for="Description" class="form-control required" placeholder="Additional details"></textarea>
+           <span class="error-message">@Html.ValidationMessageFor(m => m.Description)</span>
+		  </div>
+		  
+
+		  <!--<div class="form-group">
+			
+			<select id="Status" asp-for="Status" name="Status"  class="input">
+				<option value="Pending">Pending</option>
+			
+			</select>-->
+			 
+</div>
+
+     
+</fieldset>
+<input type="submit" value="Continue to Proof Upload" /><a href="/details/proof"></a>
+</form>
+</div>
+ }
+</html>
+<html>
+	
+	<!--<div class="login-container">
+<button class="login-button"><a href="/Login/Interface"  class="link-success">LogOut</a></button>
+</div>-->
+</html>
+<script>
+	const dateInput = document.getElementById('myDateInput');
+   const currentDate = new Date().toISOString().split('T')[0];
+    dateInput.setAttribute('max', currentDate);
+</script>

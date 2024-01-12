@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Help</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="~/image/9.png" alt="Logo"> 
+    </div>
+    <div class="navbar-buttons">
+        <a asp-area="" asp-controller="Details" asp-action="ViewDetails">Dashboard</a> 
+      <a asp-area="" asp-controller="Details" asp-action="Help">Help</a> 
+      <a asp-area="" asp-controller="Login" asp-action="ContactUs">Contact Us</a>
+     <a class="active" asp-area="" asp-controller="Login" asp-action="Welcome"  class="link-success" class="login">Logout</a>
+    </div>
+  </div>
+  
+  <!-- Rest of your HTML content -->
+  
+</body>
+</html>
+<style>
+ body {
+      background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg?w=740&t=st=1685616031~exp=1685616631~hmac=f9061b7311d449762c007f020ccf62882815cd9974672fc7fe7929bdff574906");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+.navbar {
+  background-color: #8a2be2; /* Light violet color */
+  overflow: hidden;
+  padding: 10px; /* Add padding for space */
+  width: 100%; /* Extend the navbar to full width */
+  display: flex; /* Use flexbox for flexible layout */
+  justify-content: space-between; /* Space items evenly within the navbar */
+  align-items: center; /* Align items vertically */
+}
+.logo {
+  display: flex; /* Use flexbox to align logo and text vertically */
+  align-items: center; /* Align items vertically */
+}
+.logo img {
+  height: 60px; /* Adjust the height of the logo image */
+  margin-left: 10px; /* Add spacing between the logo and text */
+}
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Rest of your CSS code */
+
+
+/* Rest of the CSS code remains the same */
+.navbar a {
+  color: rgb(8, 6, 6);
+  text-align: center;
+  padding: 10px 16px; /* Adjust padding for space */
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #13a318;
+  color: rgb(5, 0, 0);
+}
+/* Login button style */
+.navbar a.login {
+  background-color: #008CBA;
+}
+
+ <style>
+    .login-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+.login-button {
+  background-color: #ff4343;
+  border: none;
+  color: rgb(10, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+h3{
+    color: #ff4343;
+    font-weight: italic;
+}
+ </style>     
+ <html>
+    <h3>Step 1: Gather Required Documents</h3>
+    <p>Collect all the necessary documents for reimbursement, such as receipts, invoices, bills, or any other supporting documents that validate your expenses. Make sure to keep them organized and readily accessible.</p>
+    <br>
+    <h3>Step 2: Review Reimbursement Policy</h3>
+    <p>Familiarize yourself with your organization's reimbursement policy. It will outline the eligible expenses, reimbursement limits, and any specific procedures or forms you need to follow. Understanding the policy will help you navigate the reimbursement process smoothly.</p>
+    <br>
+    <h3>Step 3: Complete Reimbursement Form</h3>
+    <p>Obtain the reimbursement form from your organization's finance or human resources department. Fill out the form with accurate and detailed information. Include your name, employee ID, contact details, the purpose of the expense, date of the expense, amount spent, and any other required information.</p>
+    <br>
+    <h3>Step 4: Attach Supporting Documents</h3>
+    <p>Attach all the supporting documents you gathered in Step 1 to the reimbursement form. Ensure that each expense has a corresponding receipt or invoice. If you have multiple receipts, organize them in the order they appear on the form.</p>
+    <br>
+    <h3>Step 5: Submit Reimbursement Request</h3>
+    <p>Submit your reimbursement request to the appropriate department or individual responsible for processing reimbursements. Follow the prescribed method of submission, which could be via email, an online portal, or a physical dropbox. If there is a specific deadline for submission, make sure to meet it.</p>
+    <br>
+    <h3>Step 6: Track Reimbursement</h3>
+    <p>Once your reimbursement request is approved, keep track of the reimbursement amount and the method of payment. It could be a direct deposit to your bank account or a check sent to your address. Make a note of when you expect to receive the reimbursement.</p>
+ </html>
